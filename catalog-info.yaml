@@ -5,7 +5,7 @@ metadata:
   description: commissary
   annotations:
     backstage.io/kubernetes-id: commissary
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=commissary'
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=commissary'
     backstage.io/source-location: url:https://github.com/rhdh-demo-gh/commissary
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: rhdh-demo-gh/commissary
