@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: commissary
+  description: commissary
+  annotations:
+    backstage.io/kubernetes-id: commissary
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=commissary'
+    backstage.io/source-location: url:https://github.com/rhdh-demo-gh/commissary
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: rhdh-demo-gh/commissary
+spec:
+  type: website
+  system: system:default/general-ledger
+  lifecycle: dev
+  owner: group:default/core-team
